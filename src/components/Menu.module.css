@@ -1,0 +1,13 @@
+.menu {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 4rem;
+  column-gap: 4rem;
+  justify-items: center;
+}
+
+@media (max-width: 1200px) {
+  .menu {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
